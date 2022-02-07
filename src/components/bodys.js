@@ -23,14 +23,14 @@ function Bodycs() {
                     </div>
                     <div className='container-buton' >
                         <button className='buton-lets-go'> OK let's go <span className='arrow'><FontAwesomeIcon icon={faArrowAltCircleRight} /></span></button>
-                        <button className='buton-info'>More info <span><FontAwesomeIcon icon={faQuestionCircle} /></span></button>
+                        <button className='buton-info'>More info <span className='question'><FontAwesomeIcon icon={faQuestionCircle} /></span></button>
 
                     </div>
                 </div>
             </div>
 
             <div className='container-cards'>
-                <div className="card">
+                <div className="card card1">
                     <img c src={Img1} alt="" />
                     <h3> Dolor sit amet</h3>
                     <div className="container2">
@@ -38,7 +38,7 @@ function Bodycs() {
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card card2">
                     <img c src={Img2} alt="" />
                     <h3> Dolor sit amet</h3>
                     <div className="container2">
@@ -46,7 +46,7 @@ function Bodycs() {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam nihil mollitia molestias voluptatibus </p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card card3">
                     <img c src={Img3} alt="" />
                     <h3> Dolor sit amet</h3>
                     <div className="container2">

@@ -1,7 +1,11 @@
 .containerFooter{
     display: flex;
+    justify-content: space-between;
 }
 
-.classFoot{
-    padding:10px ;
+.red{
+    font-size: 2rem;
+    color: grey;
 }
+
+

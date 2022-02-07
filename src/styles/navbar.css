@@ -57,18 +57,27 @@ body {
 }
 
 .nav-toggle {
-  color: white;
+  color: #444444;
   background: none;
   border: none;
   font-size: 30px;
   pad: 0 20px;
   line-height: 60px;
   cursor: pointer;
-
   display: none;
+  transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+.nav-toggle:hover  {
+  color: #318aac;
+  
+}
+
+.avatarC {
+  width: 10%;
+}
+
+@media (max-width: 1077px) {
   .header {
     height: 60px;
   }
@@ -89,12 +98,12 @@ body {
     top: 60px;
     width: 100%;
     padding: 20px 0;
-
+    z-index: 1;
     height: calc(100% - 120px);
     overflow-y: auto;
 
     left: 100%;
-    transition:left 0.3s ;
+    transition:left 0.5s ;
 
   }
 
@@ -113,7 +122,7 @@ body {
 
   .nav-menu_visible{
       left: 0;
-  }
-
-  
+  }  
 }
+
+
