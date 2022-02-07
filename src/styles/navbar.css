@@ -23,8 +23,8 @@ body {
 }
 
 .logo {
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 30px;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 62px;
   font-weight: bold;
   padding: 0 40px;
   line-height: 80px;
@@ -48,7 +48,7 @@ body {
 .nav-menu-link {
   padding: 8px 12px;
   border-radius: 3px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu-link:hover,
@@ -70,22 +70,21 @@ body {
   transition: 0.3s;
 }
 
-.nav-toggle:hover  {
+.nav-toggle:hover {
   color: #318aac;
-  
 }
 
 .avatarC {
   width: 10%;
 }
 
-@media (max-width: 1077px) {
+@media (max-width: 1204px) {
   .header {
     height: 60px;
   }
 
   .logo {
-    font-size: 25px;
+    font-size: 57px;
     padding: 0 20px;
     line-height: 60px;
   }
@@ -101,30 +100,27 @@ body {
     width: 100%;
     padding: 20px 0;
     z-index: 1;
-    height: calc(100% - 120px);
+    height: calc(42% - 120px);
     overflow-y: auto;
 
     left: 100%;
-    transition:left 0.5s ;
-
+    transition: left 0.5s;
   }
 
-  .nav-menu-item {    
-    line-height: 70px;    
+  .nav-menu-item {
+    line-height: 70px;
   }
 
   .nav-menu-link:hover,
-  .nav-menu-link-active{
+  .nav-menu-link-active {
     background: none;
     color: cyan;
   }
-  .nav-toggle{
-      display: block;
+  .nav-toggle {
+    display: block;
   }
 
-  .nav-menu_visible{
-      left: 0;
-  }  
+  .nav-menu_visible {
+    left: 0;
+  }
 }
-
-
