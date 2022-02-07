@@ -1,0 +1,28 @@
+.App-header {
+  margin-bottom: -46px;
+  background: radial-gradient(rgb(218, 216, 216) 15%, transparent 25%) 0 0,
+    radial-gradient(#c2bebe 15%, transparent 25%) 0.5px 0.5px,
+    radial-gradient(rgba(255, 255, 255, 0.452) 15%, transparent 100%) 0.5px,
+    radial-gradient(rgba(255, 255, 255, 0.452) 15%, transparent 100%) 0.5px
+      0.5px;
+  background-color: #dad4d4;
+  background-size: 16px 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 10rem 0 10rem;
+}
+
+.App-header2 {
+  margin-bottom: -46px;
+  background: radial-gradient(rgb(218, 216, 216) 15%, transparent 25%) 0 0,
+    radial-gradient(#c2bebe 15%, transparent 25%) 0.5px 0.5px,
+    radial-gradient(rgba(255, 255, 255, 0.452) 15%, transparent 100%) 0.5px,
+    radial-gradient(rgba(255, 255, 255, 0.452) 15%, transparent 100%) 0.5px
+      0.5px;
+  background-color: #dad4d4;
+  background-size: 16px 16px;  
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 10rem 0 10rem;
+}
