@@ -11,7 +11,7 @@ const navbar = () => {
         <>
             <header className='header'>
                 <nav className='nav'>
-                    <a href="#" className='logo nav-link'>My loremp</a>
+                    <a href="#" className='logo nav-link'>MyLoremp</a>
                     <button onClick={()=>{active()}} className='nav-toggle'><i><FontAwesomeIcon icon={faBars}/></i></button>
                     <ul className='nav-menu'>
                         <li className="nav-menu-item"><a href="" className="nav-menu-link nav-link nav-menu-link-active">Welcome</a></li>

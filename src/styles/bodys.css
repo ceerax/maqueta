@@ -1,3 +1,12 @@
+
+
+p, h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+
+
 .container {
   background-color: white;
   margin: 10px 0;
@@ -17,14 +26,18 @@
 .container p {
   font-size: 30px;
   margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
 }
 
 .container-txt {
   padding: 10px;
+  
 }
 
 .container-buton {
   display: grid;
+  
 }
 
 .container-buton button {
@@ -34,6 +47,8 @@
   font-size: 40px;
   border-radius: 10px;
   border: transparent;
+  font-family: "Open Sans", sans-serif
+
 }
 
 .buton-info {
@@ -148,8 +163,8 @@ img {
   height: 6rem;
 }
 
-.containerTxt2 p{
-    line-height: 2; 
+.containerTxt2 p {
+  line-height: 2;
 }
 
 .grid-container {
@@ -170,6 +185,8 @@ img {
   color: white;
   font-size: 20px;
   transition: 0.3s;
+  font-family: "Open Sans", sans-serif;
+
 }
 
 .btnImg:hover {
@@ -181,8 +198,8 @@ img {
     0 0 20px rgba(49, 138, 172, 0.4);
 }
 
-.btnImg:hover .book{
-    transition: 0.5s;
+.btnImg:hover .book {
+  transition: 0.5s;
   transform: rotate(360deg);
   position: absolute;
   color: #318aac;
@@ -197,7 +214,8 @@ img {
   color: white;
   font-size: 20px;
   transition: 0.3s;
-  
+  font-family: "Open Sans", sans-serif;
+
 }
 .btnImg2:hover {
   cursor: pointer;
@@ -213,7 +231,7 @@ img {
   transform: rotate(180deg);
   transition: all ease-in-out 0.8s;
   position: absolute;
-  margin-left: 170px;
+  margin-left: 180px;
 }
 
 @media (max-width: 1099px) {

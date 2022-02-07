@@ -18,7 +18,7 @@ function Bodycs() {
             <div className='container-principal'>
                 <div className='container'>
                     <div className='container-txt'>
-                        <h2>HI THIS IS LOREM.</h2>
+                        <h2>HI. THIS IS LOREM.</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /> Molestiae a cum, maxime aspernatur dignissimos </p>
                     </div>
                     <div className='container-buton' >

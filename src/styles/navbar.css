@@ -23,6 +23,7 @@ body {
 }
 
 .logo {
+  font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 30px;
   font-weight: bold;
   padding: 0 40px;
@@ -47,6 +48,7 @@ body {
 .nav-menu-link {
   padding: 8px 12px;
   border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-menu-link:hover,
